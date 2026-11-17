@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>رنا الأتاسي | اتصل بي</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">رنا الأتاسي</a>
+    <nav>
+      <a href="index.html" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+      <a href="experience.html" data-ar="الخبرات" data-en="Experience">الخبرات</a>
+      <a class="active" href="contact.html" data-ar="اتصل بي" data-en="Contact">اتصل بي</a>
+    </nav>
+    <button class="lang-btn" id="languageToggle" type="button">English</button>
+  </header>
+
+  <main class="page contact-page">
+    <p class="eyebrow" data-ar="يسعدني التواصل معك" data-en="Let's connect">يسعدني التواصل معك</p>
+    <h1 data-ar="اتصل بي" data-en="Contact Me">اتصل بي</h1>
+    <p class="page-lead" data-ar="إذا كان لديك سؤال أو فرصة تعاون، يمكنك إرسال رسالة من النموذج التالي." data-en="If you have a question or collaboration opportunity, send me a message using the form below.">إذا كان لديك سؤال أو فرصة تعاون، يمكنك إرسال رسالة من النموذج التالي.</p>
+
+    <form class="contact-form" id="contactForm">
+      <label for="name" data-ar="الاسم" data-en="Name">الاسم</label>
+      <input id="name" name="name" type="text" required placeholder="اكتب اسمك">
+      <label for="email" data-ar="البريد الإلكتروني" data-en="Email">البريد الإلكتروني</label>
+      <input id="email" name="email" type="email" required placeholder="name@example.com">
+      <label for="message" data-ar="الرسالة" data-en="Message">الرسالة</label>
+      <textarea id="message" name="message" rows="5" required placeholder="اكتب رسالتك هنا"></textarea>
+      <button class="primary-link submit-btn" type="submit" data-ar="إرسال" data-en="Send">إرسال</button>
+      <p class="form-note" id="formNote" role="status"></p>
+    </form>
+  </main>
+
+  <footer><span data-ar="© 2026 رنا الأتاسي — جميع الحقوق محفوظة" data-en="© 2026 Rana Al-Atassi — All rights reserved">© 2026 رنا الأتاسي — جميع الحقوق محفوظة</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
